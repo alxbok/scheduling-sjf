@@ -12,7 +12,7 @@ object ShortesJobFirst {
 
   def main(args: Array[String]): Unit = {
     if (args.isEmpty) {
-      println("Usage: java [-Dlogging=on] -jar scheduling-0.0.0.jar <path_to_input_file>")
+      println("Usage: java [-Dlogging=on] -jar scheduling.jar <path_to_input_file>")
     } else {
       val inputFileName = args(0)
       val reader = new BufferedReader(new FileReader(inputFileName))
