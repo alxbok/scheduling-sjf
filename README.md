@@ -10,7 +10,7 @@ mvn clean package
 Run with
 
 ```bash
-java -jar -Dlogging=on target/scheduling-0.0.0.jar inputx.txt
+java -jar -Dlogging=on target/scheduling.jar examples/input00.txt
 ```
 
 Input file is expected to be as follows:
